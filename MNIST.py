@@ -23,9 +23,9 @@ from sklearn.naive_bayes import MultinomialNB
 
 class Modelo():
     # Captura de los datos
-    trainig = pd.read_csv('E:/Maestrado/Machine Learning/Machine Learning I/DataSet/MNIST/fashion-mnist_train.csv',
+    trainig = pd.read_csv('E:/MNIST/fashion-mnist_train.csv',
                               sep=';', header=None)
-    test = pd.read_csv('E:/Maestrado/Machine Learning/Machine Learning I/DataSet/MNIST/fashion-mnist_test.csv',
+    test = pd.read_csv('E:/MNIST/fashion-mnist_test.csv',
                        sep=';', header=None)
 
 
